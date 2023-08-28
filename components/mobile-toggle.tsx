@@ -7,7 +7,7 @@ import { MenuIcon } from 'lucide-react';
 const MobileToggle = ({ serverId }: { serverId: string }) => {
   return (
     <Sheet>
-      <SheetTrigger>
+      <SheetTrigger asChild>
         <Button variant="ghost" size="icon" className="md:hidden">
           <MenuIcon />
         </Button>
